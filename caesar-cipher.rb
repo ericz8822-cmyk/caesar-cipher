@@ -1,5 +1,5 @@
 def caesar_cipher(str, shift)
-  result = str.split('').map do |ch|
+  str.split('').map do |ch|
     letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
     if (letters.include?(ch.downcase))
         if (ch.downcase == ch)
